@@ -1,0 +1,23 @@
+{
+    "name": "houyimin/yii2-feishu-exception",
+    "description": "yii2飞书日志通知",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "houyimin",
+            "homepage": "https://houyimin.github.io/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "^2.0.15",
+        "houyimin/yii2-feishu":"^1.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "houyimin\\feishulog\\": "src/"
+        }
+    }
+}
